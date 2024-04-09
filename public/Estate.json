@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "estate_title": "Modern Apartment in Downtown",
+        "segment_name": "Residential",
+        "description": "A stunning modern apartment located in the heart of downtown. Enjoy breathtaking views and luxurious amenities.",
+        "price": 300000,
+        "status": "sale",
+        "Area": "2000 sq ft",
+        "location": "Downtown, CityX",
+        "facilities": [
+            "Swimming pool",
+            "Gym",
+            "24/7 Security"
+        ]
+    },
+    {
+        "id": 2,
+        "estate_title": "Spacious Family Home",
+        "segment_name": "Residential",
+        "description": "A beautiful family home with ample space for everyone. Ideal for creating lasting memories.",
+        "price": 450000,
+        "status": "sale",
+        "Area": "2500 sq ft",
+        "location": "Suburbia, CityX",
+        "facilities": [
+            "Backyard garden",
+            "Garage",
+            "Play area for kids"
+        ]
+    },
+    {
+        "id": 3,
+        "estate_title": "Luxury Penthouse",
+        "segment_name": "Residential",
+        "description": "Experience the epitome of luxury living in this breathtaking penthouse with panoramic views.",
+        "price": 8500,
+        "status": "rent",
+        "Area": "3500 sq ft",
+        "location": "Skyline Towers, CityX",
+        "facilities": [
+            "Private elevator",
+            "Concierge service",
+            "Spa and sauna"
+        ]
+    },
+    {
+        "id": 4,
+        "estate_title": "Commercial Office Space",
+        "segment_name": "Commercial",
+        "description": "Prime office space available for businesses looking to establish their presence in the city center.",
+        "price": 12000,
+        "status": "rent",
+        "Area": "5000 sq ft",
+        "location": "Central Business District, CityX",
+        "facilities": [
+            "Conference rooms",
+            "High-speed internet",
+            "Cafeteria"
+        ]
+    },
+    {
+        "id": 5,
+        "estate_title": "Charming Cottage by the Lake",
+        "segment_name": "Residential",
+        "description": "Escape to this cozy cottage nestled by the serene lake. Perfect for a weekend getaway.",
+        "price": 200000,
+        "status": "sale",
+        "Area": "1500 sq ft",
+        "location": "Lakefront, CityX",
+        "facilities": [
+            "Fireplace",
+            "Boat dock",
+            "Outdoor patio"
+        ]
+    },
+    {
+        "id": 6,
+        "estate_title": "Modern Townhouse",
+        "segment_name": "Residential",
+        "description": "Contemporary townhouse offering stylish living spaces and convenient access to amenities.",
+        "price": 320000,
+        "status": "sale",
+        "Area": "1800 sq ft",
+        "location": "Urban Heights, CityX",
+        "facilities": [
+            "Roof terrace",
+            "Community park",
+            "Close to public transit"
+        ]
+    },
+    {
+        "id": 7,
+        "estate_title": "Industrial Warehouse",
+        "segment_name": "Commercial",
+        "description": "Spacious warehouse suitable for storage or industrial operations. Located in an industrial zone.",
+        "price": 6000,
+        "status": "rent",
+        "Area": "10000 sq ft",
+        "location": "Industrial Zone, CityX",
+        "facilities": [
+            "Loading dock",
+            "High ceiling",
+            "Security fencing"
+        ]
+    },
+    {
+        "id": 8,
+        "estate_title": "Luxury Villa with Ocean View",
+        "segment_name": "Residential",
+        "description": "Magnificent villa overlooking the ocean, offering unparalleled luxury and comfort.",
+        "price": 1500000,
+        "status": "sale",
+        "Area": "6000 sq ft",
+        "location": "Oceanfront, CityX",
+        "facilities": [
+            "Infinity pool",
+            "Home theater",
+            "Private beach access"
+        ]
+    },
+    {
+        "id": 9,
+        "estate_title": "Cozy Studio Apartment",
+        "segment_name": "Residential",
+        "description": "Compact yet comfortable studio apartment, ideal for urban living in the bustling city.",
+        "price": 1500,
+        "status": "rent",
+        "Area": "500 sq ft",
+        "location": "Downtown, CityX",
+        "facilities": [
+            "Fitness center",
+            "Laundry facilities",
+            "Close to shopping"
+        ]
+    }
+]

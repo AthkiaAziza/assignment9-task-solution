@@ -1,0 +1,30 @@
+.slide {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-button-prev {
+    background-color: red;
+}
+
+.slide1 {
+    background-image: url("../../assets/i.jpg");
+}
+
+
+.slide2 {
+    background-image: url("../../assets/d.jpg");
+}
+
+.slide3 {
+    background-image: url("../../assets/r.jpg");
+}
+
+.slide4 {
+    background-image: url("../../assets/home.jpg");
+}
