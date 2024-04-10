@@ -1,9 +1,10 @@
 import { ImLocation2 } from "react-icons/im";
 import PropTypes from 'prop-types';
+import { Link } from "react-router-dom";
 
 const Estate = ({resort}) => {
 
-    const {segment_name, status, price, estate_title, location, image, facilities} = resort
+    const {segment_name, status, price, estate_title, location, image, facilities, Id} = resort
     return (
         <div>
             <div className="flex">
@@ -23,7 +24,9 @@ const Estate = ({resort}) => {
                             }
                         </p>
                         <div className="justify-start">
+                            <Link to={`/details/${Id}`}>
                             <button className="btn bg-slate-700 text-white">View Property</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
