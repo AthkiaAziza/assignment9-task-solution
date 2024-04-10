@@ -1,137 +1,111 @@
 [
     {
-        "id": 1,
-        "estate_title": "Modern Apartment in Downtown",
-        "segment_name": "Residential",
-        "description": "A stunning modern apartment located in the heart of downtown. Enjoy breathtaking views and luxurious amenities.",
-        "price": 300000,
-        "status": "sale",
-        "Area": "2000 sq ft",
-        "location": "Downtown, CityX",
-        "facilities": [
-            "Swimming pool",
-            "Gym",
-            "24/7 Security"
-        ]
+      "id": 1,
+      "estate_title": "Modern Apartment in Downtown",
+      "segment_name": "Residential",
+      "description": "Discover urban living at its finest with this modern apartment situated in the vibrant heart of downtown. Boasting sleek contemporary design and panoramic city views, this apartment offers a luxurious retreat from the bustling streets below. Spanning 2000 square feet, the interior features an open-concept layout flooded with natural light. The spacious living area seamlessly connects to a gourmet kitchen equipped with top-of-the-line appliances and a breakfast bar. The master suite offers a tranquil escape with its elegant design and en-suite bathroom featuring a soaking tub and separate shower. Residents can enjoy access to a range of amenities including a swimming pool, fitness center, and 24/7 security. Conveniently located near shopping, dining, and entertainment options, this apartment promises a lifestyle of convenience and sophistication.",
+      "price": "$300,000",
+      "status": "sale",
+      "Area": "2000 sq ft",
+      "location": "Downtown",
+      "facilities": ["Swimming pool", "Gym", "24/7 Security"],
+      "image": "https://res.cloudinary.com/dezlenmkq/image/upload/v1712676314/zgpy9hl1bdfqeebnbtrj.jpg"
     },
     {
-        "id": 2,
-        "estate_title": "Spacious Family Home",
-        "segment_name": "Residential",
-        "description": "A beautiful family home with ample space for everyone. Ideal for creating lasting memories.",
-        "price": 450000,
-        "status": "sale",
-        "Area": "2500 sq ft",
-        "location": "Suburbia, CityX",
-        "facilities": [
-            "Backyard garden",
-            "Garage",
-            "Play area for kids"
-        ]
+      "id": 2,
+      "estate_title": "Spacious Family Home",
+      "segment_name": "Residential",
+      "description": "Nestled in the peaceful suburbs of CityX, this spacious family home offers the perfect blend of comfort and functionality. With 2500 square feet of living space, this home features multiple bedrooms, including a luxurious master suite with a walk-in closet and en-suite bathroom. The open-concept living area boasts high ceilings and large windows, creating a bright and inviting atmosphere. The gourmet kitchen is equipped with modern appliances and ample storage space. Outside, the expansive backyard provides plenty of room for outdoor activities and entertaining, complete with a landscaped garden and patio area. Additional amenities include a two-car garage and a dedicated play area for kids. Located within close proximity to schools, parks, and shopping centers, this home is ideal for families seeking suburban tranquility.",
+      "price": "$450,000",
+      "status": "sale",
+      "Area": "2500 sq ft",
+      "location": "Suburbia",
+      "facilities": ["Backyard garden", "Garage", "Play area for kids"],
+      "image": "https://res.cloudinary.com/dezlenmkq/image/upload/v1712672617/zf118jrrkyutfxh1ipoa.webp"
     },
     {
-        "id": 3,
-        "estate_title": "Luxury Penthouse",
-        "segment_name": "Residential",
-        "description": "Experience the epitome of luxury living in this breathtaking penthouse with panoramic views.",
-        "price": 8500,
-        "status": "rent",
-        "Area": "3500 sq ft",
-        "location": "Skyline Towers, CityX",
-        "facilities": [
-            "Private elevator",
-            "Concierge service",
-            "Spa and sauna"
-        ]
+      "id": 3,
+      "estate_title": "Luxury Penthouse with Skyline Views",
+      "segment_name": "Residential",
+      "description": "Indulge in luxury living with this breathtaking penthouse offering panoramic skyline views. Situated atop Skyline Towers in the heart of CityX, this exquisite residence boasts 3500 square feet of refined elegance. Floor-to-ceiling windows flood the interior with natural light, while sleek hardwood floors and designer fixtures add a touch of sophistication. The expansive living area is ideal for entertaining, with seamless indoor-outdoor flow to a private terrace overlooking the city. The gourmet kitchen is a chef's dream, featuring premium appliances and custom cabinetry. The master suite is a sanctuary of relaxation, complete with a spa-like bathroom and walk-in closet. Residents enjoy exclusive access to a private elevator, concierge service, and state-of-the-art fitness center. With its prestigious location and unparalleled amenities, this penthouse offers the epitome of urban luxury living.",
+      "price": "$8,500",
+      "status": "rent",
+      "Area": "3500 sq ft",
+      "location": "Skyline Towers",
+      "facilities": ["Private elevator", "Concierge service", "Fitness center"],
+      "image": "https://res.cloudinary.com/dezlenmkq/image/upload/v1712676388/bry5zy4iooj5aryzsixo.jpg"
     },
     {
-        "id": 4,
-        "estate_title": "Commercial Office Space",
-        "segment_name": "Commercial",
-        "description": "Prime office space available for businesses looking to establish their presence in the city center.",
-        "price": 12000,
-        "status": "rent",
-        "Area": "5000 sq ft",
-        "location": "Central Business District, CityX",
-        "facilities": [
-            "Conference rooms",
-            "High-speed internet",
-            "Cafeteria"
-        ]
+      "id": 4,
+      "estate_title": "Prime Commercial Office Space",
+      "segment_name": "Commercial",
+      "description": "Position your business for success with this prime office space located in the bustling Central Business District of CityX. Offering 5000 square feet of flexible workspace, this commercial property is ideal for companies seeking a prestigious address and modern amenities. The interior features an open layout with high ceilings and large windows, providing abundant natural light and inspiring views of the city skyline. Conference rooms, high-speed internet, and a cafeteria cater to the needs of modern businesses, while secure parking facilities ensure convenience for employees and clients alike. With its strategic location and professional environment, this office space presents an unparalleled opportunity for growth and productivity.",
+      "price": "$12,000",
+      "status": "rent",
+      "Area": "5000 sq ft",
+      "location": "Central Business District",
+      "facilities": ["Conference rooms", "High-speed internet", "Cafeteria"],
+      "image": "https://res.cloudinary.com/dezlenmkq/image/upload/v1712676434/hqmciagkxe5jsjbshllo.jpg"
     },
     {
-        "id": 5,
-        "estate_title": "Charming Cottage by the Lake",
-        "segment_name": "Residential",
-        "description": "Escape to this cozy cottage nestled by the serene lake. Perfect for a weekend getaway.",
-        "price": 200000,
-        "status": "sale",
-        "Area": "1500 sq ft",
-        "location": "Lakefront, CityX",
-        "facilities": [
-            "Fireplace",
-            "Boat dock",
-            "Outdoor patio"
-        ]
+      "id": 5,
+      "estate_title": "Charming Lakefront Cottage",
+      "segment_name": "Residential",
+      "description": "Escape the hustle and bustle of the city with this charming lakefront cottage nestled in the serene surroundings of CityX. Offering 1500 square feet of cozy living space, this retreat is perfect for weekend getaways or year-round living. The rustic exterior exudes charm, while the interior features a comfortable living area, well-equipped kitchen, and inviting bedroom. Large windows provide breathtaking views of the lake and allow natural light to fill the space. Outside, a private patio and boat dock offer opportunities for relaxation and recreation, whether you're fishing, kayaking, or simply enjoying the scenery. With its idyllic location and peaceful ambiance, this cottage is a rare find in today's fast-paced world.",
+      "price": "$200,000",
+      "status": "sale",
+      "Area": "1500 sq ft",
+      "location": "Lakefront",
+      "facilities": ["Private patio", "Boat dock", "Scenic views"],
+      "image": "https://res.cloudinary.com/dezlenmkq/image/upload/v1712676518/yhfjjst2tac88vpzwoky.webp"
     },
     {
-        "id": 6,
-        "estate_title": "Modern Townhouse",
-        "segment_name": "Residential",
-        "description": "Contemporary townhouse offering stylish living spaces and convenient access to amenities.",
-        "price": 320000,
-        "status": "sale",
-        "Area": "1800 sq ft",
-        "location": "Urban Heights, CityX",
-        "facilities": [
-            "Roof terrace",
-            "Community park",
-            "Close to public transit"
-        ]
+      "id": 6,
+      "estate_title": "Contemporary Urban Townhouse",
+      "segment_name": "Residential",
+      "description": "Experience contemporary urban living at its finest with this stylish townhouse located in the heart of CityX. Boasting 1800 square feet of modern design and functionality, this residence offers the perfect blend of comfort and convenience. The open-concept living area features sleek finishes and abundant natural light, creating a welcoming atmosphere for entertaining guests. The gourmet kitchen is equipped with stainless steel appliances and quartz countertops, while the rooftop terrace offers breathtaking views of the city skyline. Residents also enjoy access to a community park and easy proximity to public transit, making this townhouse an ideal choice for those seeking a dynamic urban lifestyle.",
+      "price": "$320,000",
+      "status": "sale",
+      "Area": "1800 sq ft",
+      "location": "Urban Heights",
+      "facilities": ["Rooftop terrace", "Community park", "Close to public transit"],
+      "image": "https://res.cloudinary.com/dezlenmkq/image/upload/v1712676567/aaywgecijxa8byteer6n.jpg"
     },
     {
-        "id": 7,
-        "estate_title": "Industrial Warehouse",
-        "segment_name": "Commercial",
-        "description": "Spacious warehouse suitable for storage or industrial operations. Located in an industrial zone.",
-        "price": 6000,
-        "status": "rent",
-        "Area": "10000 sq ft",
-        "location": "Industrial Zone, CityX",
-        "facilities": [
-            "Loading dock",
-            "High ceiling",
-            "Security fencing"
-        ]
+      "id": 7,
+      "estate_title": "Spacious Industrial Warehouse",
+      "segment_name": "Commercial",
+      "description": "Maximize your business operations with this spacious industrial warehouse located in CityX's thriving industrial zone. Offering 10,000 square feet of versatile space, this warehouse is suitable for a wide range of storage and manufacturing needs. The expansive layout provides ample room for equipment and inventory, while large bay doors and a loading dock ensure efficient logistics. High ceilings and natural light enhance the working environment, while security fencing provides added protection for valuable assets. Situated in close proximity to major highways and transportation routes, this warehouse offers convenience and accessibility for businesses looking to optimize their supply chain.",
+      "price": "$6,000",
+      "status": "rent",
+      "Area": "10,000 sq ft",
+      "location": "Industrial Zone",
+      "facilities": ["Loading dock", "High ceilings", "Security fencing"],
+      "image": "https://res.cloudinary.com/dezlenmkq/image/upload/v1712676629/fy04cibtpouyta2pxtmc.jpg"
     },
     {
-        "id": 8,
-        "estate_title": "Luxury Villa with Ocean View",
-        "segment_name": "Residential",
-        "description": "Magnificent villa overlooking the ocean, offering unparalleled luxury and comfort.",
-        "price": 1500000,
-        "status": "sale",
-        "Area": "6000 sq ft",
-        "location": "Oceanfront, CityX",
-        "facilities": [
-            "Infinity pool",
-            "Home theater",
-            "Private beach access"
-        ]
+      "id": 8,
+      "estate_title": "Luxury Oceanfront Villa",
+      "segment_name": "Residential",
+      "description": "Experience the epitome of luxury living with this magnificent oceanfront villa located in the prestigious Oceanfront community of CityX. Boasting unparalleled views of the sparkling ocean, this residence offers 6000 square feet of refined elegance and comfort. The interior features exquisite finishes and meticulous attention to detail, with expansive living areas and seamless indoor-outdoor flow. The outdoor space is a true oasis of relaxation, with an infinity pool, home theater, and private beach access. Whether entertaining guests or enjoying quiet moments of solitude, this villa provides the perfect setting for a life of luxury and leisure.",
+      "price": "$1,500,000",
+      "status": "sale",
+      "Area": "6000 sq ft",
+      "location": "Oceanfront",
+      "facilities": ["Infinity pool", "Home theater", "Private beach access"],
+      "image": "https://res.cloudinary.com/dezlenmkq/image/upload/v1712676691/zpythzx3ao319rusxezk.jpg"
     },
     {
-        "id": 9,
-        "estate_title": "Cozy Studio Apartment",
-        "segment_name": "Residential",
-        "description": "Compact yet comfortable studio apartment, ideal for urban living in the bustling city.",
-        "price": 1500,
-        "status": "rent",
-        "Area": "500 sq ft",
-        "location": "Downtown, CityX",
-        "facilities": [
-            "Fitness center",
-            "Laundry facilities",
-            "Close to shopping"
-        ]
+      "id": 9,
+      "estate_title": "Cozy Downtown Studio Apartment",
+      "segment_name": "Residential",
+      "description": "Embrace city living with this cozy studio apartment located in the bustling downtown district of CityX. Offering 500 square feet of urban charm, this apartment is perfect for singles or couples seeking convenience and affordability. The open-layout design maximizes space and functionality, with a combined living area, kitchenette, and sleeping alcove. Large windows flood the interior with natural light, creating a bright and inviting atmosphere. Residents enjoy access to onsite amenities including a fitness center and laundry facilities, while the proximity to shopping, dining, and public transportation ensures easy access to everything the city has to offer.",
+      "price": "$1,500",
+      "status": "rent",
+      "Area": "500 sq ft",
+      "location": "Downtown",
+      "facilities": ["Fitness center", "Laundry facilities", "Close to shopping"],
+      "image": "https://res.cloudinary.com/dezlenmkq/image/upload/v1712676736/nyhhirx4dtsnwgvm8y2i.jpg"
     }
-]
+  ]
+  
