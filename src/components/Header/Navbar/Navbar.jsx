@@ -1,17 +1,31 @@
-import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../../providers/AuthProvider";
 
 
 const Navbar = () => {
+
+    const { user, logOut } = useContext(AuthContext);
+
+    const handleLogOut = () => {
+        logOut()
+            .then(() => {
+                console.log('User logged out successfully')
+            })
+            .catch(error => console.error(error))
+    }
+
+
     const navLinks = <>
-        <NavLink className={({isActive}) => isActive ? 'underline mr-4' : 'mr-4'} to='/'>Home</NavLink>
+        <NavLink className={({ isActive }) => isActive ? 'underline mr-4' : 'mr-4'} to='/'>Home</NavLink>
 
-        <NavLink className={({isActive}) => isActive ? 'underline mr-4' : 'mr-4'} to='/profile'>Profile</NavLink>
+        <NavLink className={({ isActive }) => isActive ? 'underline mr-4' : 'mr-4'} to='/profile'>Update Profile</NavLink>
 
-        <NavLink className={({isActive}) => isActive ? 'underline mr-4' : 'mr-4'} to='/anything'>Anything</NavLink>
+        <NavLink className={({ isActive }) => isActive ? 'underline mr-4' : 'mr-4'} to='/anything'>Anything</NavLink>
     </>
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100 mb-16">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -21,7 +35,7 @@ const Navbar = () => {
                             {navLinks}
                         </ul>
                     </div>
-                    <a className="text-xl font-poppins lg:text-4xl">Luxury Homes</a>
+                    <a className="text-xl font-poppins lg:text-4xl bg-black text-white px-2">Tranquil Haven</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="text-xl bg-black text-white font-poppins menu menu-horizontal px-1">
@@ -29,12 +43,21 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end flex gap-2 lg:gap-10">
-                    <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-                        <div className="w-10 lg:w-12 h-10 lg:h-12 rounded-full">
-                            <img alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                        </div>
+
+                    <div className="flex items-center gap-4">
+                        {
+                            user ? <>
+                                <div data-tip={user.displayName} className="tooltip tooltip-left avatar mr-8">
+                                    <div className="w-10 lg:w-12 h-10 lg:h-12 rounded-full">
+                                        <img src={user.photoURL} />
+                                    </div>
+                                </div>
+                                <a onClick={handleLogOut} className="btn bg-black text-white border-none text-sm font-poppins w-14 lg:w-20">Log out</a>
+                            </>
+                                :
+                                <Link to="/login" className="btn bg-black text-white border-none text-xl font-poppins w-14 lg:w-20">Login</Link>
+                        }
                     </div>
-                    <a className="btn bg-black text-white border-none text-xl font-poppins w-14 lg:w-20">Login</a>
                 </div>
             </div>
         </div>
